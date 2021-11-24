@@ -206,7 +206,7 @@ async function game() {
       "La carta correcta de " +
         (jug == 1 ? nombre_jugadores[2].nombre : nombre_jugadores[1].nombre) +
         " era " +
-        (nombre_jugadores[jug] == 1
+        (jug == 1
           ? carta_jugador2[0] + " " + carta_jugador2[1]
           : carta_jugador1[0] + " " + carta_jugador1[1])
     );
