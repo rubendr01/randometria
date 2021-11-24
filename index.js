@@ -216,7 +216,7 @@ async function game() {
     console.log("============💔💔==========".green);
     console.log(
       "Oh! Vaya has perdido tus vidas " +
-        nombre_jugadores[jug] +
+        (jug == 1 ? nombre_jugadores[2].nombre : nombre_jugadores[1].nombre) +
         " la próxima vez lo acertarás!"
     );
     console.log(
